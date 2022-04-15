@@ -1,7 +1,10 @@
+import { Box, Button } from '@mui/material'
 import React from 'react'
 
 export default function Home() {
   return (
-    <div><h1>홈 화면 입니다.</h1></div>
+    <Box>
+      <Button href="/newpost">게시글 등록</Button>
+    </Box>
   )
 }
